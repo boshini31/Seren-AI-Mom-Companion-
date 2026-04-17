@@ -1,0 +1,23 @@
+# Environment
+.env
+*.env.local
+
+# Java / Maven
+backend/target/
+*.class
+*.jar
+*.war
+
+# Node / React
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Spring Boot config (contains secrets)
+seren-ai/backend/src/main/resources/application.properties
